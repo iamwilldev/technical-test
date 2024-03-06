@@ -128,28 +128,11 @@
                             </a>
                             <ul aria-expanded="false" class="collapse first-level">
                                 <li class="sidebar-item">
-                                    <a href="./ui-accordian.html" class="sidebar-link">
-                                        <div class="round-16 d-flex align-items-center justify-content-center">
-                                            <i class="ti ti-database-export"></i>
-                                        </div>
-                                        <span class="hide-menu">Database Backup</span>
-                                    </a>
-                                </li>
-                                <li class="sidebar-item">
                                     <a href="{{ route('dashboard.logs.activity.index') }}" class="sidebar-link">
                                         <div class="round-16 d-flex align-items-center justify-content-center">
                                             <i class="ti ti-activity"></i>
                                         </div>
                                         <span class="hide-menu">Activity Log</span>
-                                    </a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="./ui-badge.html" class="sidebar-link">
-                                        <div class="round-16 d-flex align-items-center justify-content-center">
-                                            <i class="ti ti-bug"></i>
-                                        </div>
-                                        <span class="hide-menu">Error Log
-                                        </span>
                                     </a>
                                 </li>
                             </ul>

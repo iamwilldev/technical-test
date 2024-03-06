@@ -108,11 +108,13 @@ class BaseDashboardController extends Controller
         return $datatable->render($view, $this->data);
     }
 
-    public function renderView($view)
+    public function renderView($view, $additionalData = [])
     {
         $this->data['layout'] = $this->getLayout();
         $this->data['title'] = $this->title;
         $this->data['breadcrumbs'] = $this->getBreadcrumbs();
+
+        $this->data = array_merge($this->data, $additionalData);
 
         return view($view, $this->data);
     }
