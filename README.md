@@ -46,7 +46,12 @@ git clone https://github.com/iamwilldev/technical-test.git && cd technical-test 
 - Approval 1 (Kantor Cabang) : `approval1@gmail.com` / `password`
 - Approval 2 (Kantor Pusat) : `approval2@gmail.com` / `password`
 
-3. **PDM or database design**
+3. **Requirement**
+- Database : `Mysql 8`
+- PHP : `php 8.2`
+- Framework : `Laravel 10`
+
+4. **PDM or database design**
 
 ![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/708319074fd1c6d90d382e5e1a8d5c517bed6df6/Github/pdm.png)
 
