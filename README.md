@@ -1,11 +1,11 @@
-# FaceDetection-PCA-Manhanttan
+# Tambang Nikel
 
 <h1 align="center">
 <img align="center" height="80px" width="80px" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/kai.png" alt="Kai-icon">
  Kai
 </h1>
 <p align="center">
-This is a face detection project using the ORL Database of Faces to obtain the model accuracy, error rate, and the count of face matches/unmatches.
+This is a technical test backend developer from PT Sekawan Media Informatika with a case study of a nickel company that needs an application to be able to monitor its vehicles.
 </p>
 
 <p align="center">
@@ -14,13 +14,16 @@ This is a face detection project using the ORL Database of Faces to obtain the m
   <a href="#support">Support</a> •
 </p>
 
-![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/person.png)
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/657ec09dcf671d804296122a68eeeb8174addcc9/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-00_36_58.png)
+
 
 ## Features
 
-- Selection Data Train and Data Test
-- Random Train and Test Index
-- Adjust Features Data Test
+- There are 2 users (admin and approver)
+- There is a dashboard that displays a graph of vehicle usage
+- Driver management
+- Vehicle management
+- Bookings management
 
 ## Building from Source
 
@@ -30,17 +33,40 @@ Open a terminal and run the following commands.
 
 1. **Set everything up.**
 
-- Linux/Mac
+- Linux/Mac/Windows (Command Prompt)
 
 ```
-git clone https://github.com/iamwilldev/FaceDetection-PCA-Manhanttan && cd FaceDetection-PCA-Manhanttan && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+git clone https://github.com/iamwilldev/technical-test.git && cd technical-test && composer update && cp .env.example .env && php artisan key:generate && php artisan migrate && php artisan db:seed && php artisan serve
 ```
 
-- Windows (Command Prompt)
+2. **Authentication**
+- Admin : `admin@gmail.com` / `password`
+- Approval 1 (Kantor Cabang) : `approval1@gmail.com` / `password`
+- Approval 2 (Kantor Pusat) : `approval2@gmail.com` / `password`
 
-```
-git clone https://github.com/iamwilldev/FaceDetection-PCA-Manhanttan && cd FaceDetection-PCA-Manhanttan && python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
-```
+## Preview Web
+
+Some previews of web features
+
+1. **Role Admin**
+
+- Dashboard
+
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/657ec09dcf671d804296122a68eeeb8174addcc9/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-00_36_58.png)
+
+- Driver management
+
+- Vehicle management
+
+- Booking management
+
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/657ec09dcf671d804296122a68eeeb8174addcc9/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-00_36_58.png)
+
+2. **Role Approval 1**
+- Booking approval
+
+3. **Role Approval 2**
+- Booking approval
 
 ## Support
 
