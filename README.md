@@ -9,8 +9,9 @@ This is a technical test backend developer from PT Sekawan Media Informatika wit
 </p>
 
 <p align="center">
-  <a href="#features">Preview</a> •
+  <a href="#features">Features</a> •
   <a href="#building-from-source">Building from source</a> •
+  <a href="#preview-web">Preview</a> •
   <a href="#support">Support</a> •
 </p>
 
@@ -24,6 +25,7 @@ This is a technical test backend developer from PT Sekawan Media Informatika wit
 - Driver management
 - Vehicle management
 - Bookings management
+- Activity log
 
 ## Building from Source
 
@@ -44,6 +46,10 @@ git clone https://github.com/iamwilldev/technical-test.git && cd technical-test 
 - Approval 1 (Kantor Cabang) : `approval1@gmail.com` / `password`
 - Approval 2 (Kantor Pusat) : `approval2@gmail.com` / `password`
 
+3. **PDM or database design**
+
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/708319074fd1c6d90d382e5e1a8d5c517bed6df6/Github/pdm.png)
+
 ## Preview Web
 
 Some previews of web features
@@ -52,24 +58,36 @@ Some previews of web features
 
 - Dashboard
 
-![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/657ec09dcf671d804296122a68eeeb8174addcc9/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-00_36_58.png)
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/473690d8fa8316ded9e3da8de67a33875e878ac0/Github/screencapture-127-0-0-1-8000-dashboard-2024-03-07-01_15_25.png)
 
 - Driver management
 
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/473690d8fa8316ded9e3da8de67a33875e878ac0/Github/screencapture-127-0-0-1-8000-dashboard-driver-drivers-2024-03-07-01_15_49.png)
+
 - Vehicle management
+
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/473690d8fa8316ded9e3da8de67a33875e878ac0/Github/screencapture-127-0-0-1-8000-dashboard-vehicle-vehicles-2024-03-07-01_15_57.png)
 
 - Booking management
 
 ![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/657ec09dcf671d804296122a68eeeb8174addcc9/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-00_36_58.png)
 
+- Log Activity
+
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/473690d8fa8316ded9e3da8de67a33875e878ac0/Github/screencapture-127-0-0-1-8000-dashboard-logs-activity-2024-03-07-01_16_12.png)
+
 2. **Role Approval 1**
 - Booking approval
+
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/473690d8fa8316ded9e3da8de67a33875e878ac0/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-01_18_34.png)
 
 3. **Role Approval 2**
 - Booking approval
 
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/473690d8fa8316ded9e3da8de67a33875e878ac0/Github/screencapture-127-0-0-1-8000-dashboard-booking-bookings-2024-03-07-01_19_03.png)
+
 ## Support
 
-- You can support the development of FaceDetection-PCA-Manhanttan through donations on [GitHub Sponsors]().
+- You can support the development of Tambang Nikel through donations on [GitHub Sponsors]().
 - You can also leave a star on the github for more weebs to know about it.
-- FaceDetection-PCA-Manhanttan is open to pull requests, so if you have ideas for improvements, feel free to contribute!
+- Tambang Nikel is open to pull requests, so if you have ideas for improvements, feel free to contribute!
